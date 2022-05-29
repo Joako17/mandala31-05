@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: blue;
+        background-image: linear-gradient(to bottom, rgb(55, 53, 173) , rgb(208, 207, 240) , rgb(160, 178, 185));
+}
+header{
+    height: 300px;
+}
+/* barra de navegacion inicio */
+nav{
+    background-color:rgba(214, 214, 240, 0.801) ;
+        background-image: linear-gradient( to bottom, rgb(91, 91, 201), rgb(208, 207, 240));
+}
+/* barra de navegacion inicio */
+h1{
+    background-color:rgba(130, 125, 206, 0.801) ;
+        background-image: linear-gradient( to bottom, rgb(208, 207, 240), rgb(208, 207, 240))
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    text-shadow: 5px 5px 5px blue;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-size: 80px;
+    }
+    @keyframes aparecer{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+h2{
+    text-align: right;
+    text-transform: capitalize;
+}
+ul{
+    font-size: 40px;
+}
+.inst{
+    color: red;
+}
+.sec{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.carousel-inner img {
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30%;
+}
+footer{
+    height: 310px;
+    padding: 8px;
+    background-color:rgba(0, 2, 117, 0.801) ;
+    background-image: linear-gradient(to top, blue , rgb(208, 207, 240));
+}
+footer p{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* boton de contacto  */
+.wasap{
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 3px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: rgb(3, 51, 3);
+}
+/* pagina somos */
+.somos{
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+.equipo{
+    text-align: center;
+    font-size: 30px;
+}
